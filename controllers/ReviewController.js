@@ -19,12 +19,16 @@ class ReviewController {
 
   static async updateReviewToDestination(req, res, next) {
     try {
+      const user = req.user;
       const DestinationId = req.params.destinationId;
       const reviewId = req.params.reviewId;
       const destination = await Destination.findByPk(DestinationId);
       const review = await Review.findByPk(reviewId);
       if (!destination || !review || review.DestinationId !== destination.id) {
         throw { name: 'NotFound' };
+      }
+      if (review.UserId !== user.id) {
+        throw { name : 'Forbidden' }
       }
       await Review.update(req.body, { where: { id: reviewId } });
       res.status(200).json({ message : `Update Review Success!` });

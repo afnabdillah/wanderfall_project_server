@@ -22,8 +22,8 @@ async function sendMailWithNodeMailer(emailDestination) {
     from: '"Dolan Super 👻" <dolansuper3@mail.com>', // sender address
     to: emailDestination, // list of receivers
     subject: "Hello ✔", // Subject line
-    text: "Thank you for signing up on Dolan Super!!!", // plain text body
-    // html: "<b>Hello world?</b>", // html body
+    text: "Thank you for signing up on Wander Fall!!!", // plain text body
+    html: `<p>Thank you for signing up on Wander Fall!!! Let's start right away by checking out <a href="http://localhost:5173/destinations"> destinations!</a></p>`, // html body
   });
 
   console.log("Message sent: %s", info.messageId);
