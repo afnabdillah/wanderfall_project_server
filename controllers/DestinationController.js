@@ -92,10 +92,10 @@ class DestinationController {
       scheduleEnd = scheduleEnd || `23:59`;
       const DestinationId = req.params.destinationId;
       const destination = await Destination.findByPk(DestinationId);
-      const timeZone = await getTimeZone(destination.latitude, destination.longitude);
       if (!destination) {
         throw { name: 'NotFound' };
       }
+      const timeZone = await getTimeZone(destination.latitude, destination.longitude);
       if (isSyncWithGoogleCalendar === 'true') {
         const calendarInput = {
           plan,
@@ -115,7 +115,7 @@ class DestinationController {
         link = null;
         newSchedule = await Schedule.create({ ...req.body, DestinationId, UserId, eventId, link, isSyncWithGoogleCalendar });
       }
-      res.status(201).json({ newSchedule });
+      res.status(201).json(newSchedule);
     } catch (err) {
       next(err);
     }
@@ -206,11 +206,11 @@ class DestinationController {
       const UserId = req.user.id;
       const { scheduleId } = req.params;
       const schedule = await Schedule.findByPk(scheduleId);
-      if (schedule.UserId !== UserId) {
-        throw { name: 'Forbidden' }
-      }
       if (!schedule) {
         throw { name: 'NotFound' };
+      }
+      if (schedule.UserId !== UserId) {
+        throw { name: 'Forbidden' }
       }
       const { eventId } = schedule;
       if (eventId) {

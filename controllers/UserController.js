@@ -80,8 +80,7 @@ class UserController {
           username: email.split('@')[0],
           email: email,
           password: 'google',
-        },
-        hooks : false
+        }
       })
       if (created) {
         await Profile.create({
