@@ -1,0 +1,114 @@
+[
+  {
+    "DestinationId" : 1,
+    "TagId" : 1
+  },
+  {
+    "DestinationId" : 1,
+    "TagId" : 8
+  },
+  {
+    "DestinationId" : 2,
+    "TagId" : 1
+  },
+  {
+    "DestinationId" : 2,
+    "TagId" : 8
+  },
+  {
+    "DestinationId" : 3,
+    "TagId" : 3
+  },
+  {
+    "DestinationId" : 4,
+    "TagId" : 2
+  },
+  {
+    "DestinationId" : 4,
+    "TagId" : 8
+  },
+  {
+    "DestinationId" : 5,
+    "TagId" : 6
+  },
+  {
+    "DestinationId" : 5,
+    "TagId" : 8
+  },
+  {
+  "DestinationId" : 6,
+    "TagId" : 7
+  },
+  {
+  "DestinationId" : 7,
+    "TagId" : 4
+  },
+  {
+  "DestinationId" : 8,
+    "TagId" : 3
+  },
+  {
+  "DestinationId" : 9,
+    "TagId" : 8
+  },
+  {
+  "DestinationId" : 10,
+    "TagId" : 8
+  },
+  {
+  "DestinationId" : 11,
+    "TagId" : 2
+  },
+  {
+  "DestinationId" : 12,
+    "TagId" : 2
+  },
+  {
+  "DestinationId" : 13,
+    "TagId" : 10
+  },
+  {
+  "DestinationId" : 13,
+    "TagId" : 8
+  },
+  {
+  "DestinationId" : 14,
+    "TagId" : 11
+  },
+  {
+  "DestinationId" : 15,
+    "TagId" : 11
+  },
+  {
+  "DestinationId" : 16,
+    "TagId" : 3
+  },
+  {
+  "DestinationId" : 17,
+    "TagId" : 7
+  },
+  {
+  "DestinationId" : 18,
+    "TagId" : 9
+  },
+  {
+  "DestinationId" : 18,
+    "TagId" : 8
+  },
+  {
+  "DestinationId" : 19,
+    "TagId" : 5
+  },
+  {
+  "DestinationId" : 20,
+    "TagId" : 6
+  },
+  {
+  "DestinationId" : 20,
+    "TagId" : 8
+  },
+  {
+  "DestinationId" : 21,
+    "TagId" : 4
+  }
+]

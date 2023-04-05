@@ -1,0 +1,32 @@
+[
+  {
+    "username" : "afnabdillah",
+    "password" : "123456",
+    "email" : "afn1@mail.com",
+    "type" : "normal"
+  },
+  {
+    "username" : "afnabd",
+    "password" : "123456",
+    "email" : "afn2@mail.com",
+    "type" : "normal"
+  },
+  {
+    "username" : "openAI",
+    "password" : "123456",
+    "email" : "afn3@mail.com",
+    "type" : "normal"
+  },
+  {
+    "username" : "dementiaMoment",
+    "password" : "123456",
+    "email" : "afn4@mail.com",
+    "type" : "normal"
+  },
+  {
+    "username" : "LintahBulan",
+    "password" : "123456",
+    "email" : "afn5@mail.com",
+    "type" : "normal"
+  }
+]

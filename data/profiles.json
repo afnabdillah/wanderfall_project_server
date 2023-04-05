@@ -1,0 +1,47 @@
+[
+  {
+    "fullName" : "Affan Master",
+    "address" : "Bumi",
+    "phoneNumber" : 12345678,
+    "city" : "Magelang",
+    "country" : "Indonesia",
+    "UserId" : 1,
+    "userPhoto" : "https://randomuser.me/api/portraits/men/14.jpg"
+  },
+  {
+    "fullName" : "Affan Abdul",
+    "address" : "Bumi",
+    "phoneNumber" : 12345678,
+    "city" : "Magelang",
+    "country" : "Indonesia",
+    "UserId" : 2,
+    "userPhoto" : "https://randomuser.me/api/portraits/men/15.jpg"
+  },
+  {
+    "fullName" : "OpenAI Lord",
+    "address" : "Bumi",
+    "phoneNumber" : 12345678,
+    "city" : "Magelang",
+    "country" : "Indonesia",
+    "UserId" : 3,
+    "userPhoto" : "https://randomuser.me/api/portraits/men/16.jpg"
+  },
+  {
+    "fullName" : "Servant of Concealment",
+    "address" : "Bumi",
+    "phoneNumber" : 12345678,
+    "city" : "Magelang",
+    "country" : "Indonesia",
+    "UserId" : 4,
+    "userPhoto" : "https://randomuser.me/api/portraits/men/17.jpg"
+  },
+  {
+    "fullName" : "Trojan Horse of Fate",
+    "address" : "Bumi",
+    "phoneNumber" : 12345678,
+    "city" : "Magelang",
+    "country" : "Indonesia",
+    "UserId" : 5,
+    "userPhoto" : "https://randomuser.me/api/portraits/men/18.jpg"
+  }
+]
