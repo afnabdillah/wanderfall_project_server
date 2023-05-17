@@ -3,3 +3,6 @@ node_modules
 ecosystem.config.js
 sandbox.js
 credentials.json
+.dockerignore
+Dockerfile
+fly.toml
