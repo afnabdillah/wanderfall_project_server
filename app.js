@@ -3,8 +3,10 @@ const errorHandler = require('./middlewares/errorHandler');
 const router = require('./routes/index');
 const cors = require('cors');
 const app = express();
-const port = 3000;
-require('dotenv').config();
+const port = process.env.PORT || 3000;
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
+}
 app.use(cors());
 
 app.use(express.urlencoded({ extended: true }));

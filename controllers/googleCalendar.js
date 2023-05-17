@@ -24,6 +24,7 @@ async function loadSavedCredentialsIfExist(UserId) {
     // const content = await fs.readFile(TOKEN_PATH);
     // const credentials = JSON.parse(content);
     const credentials = await GoogleCalendarToken.findOne({ where: { UserId } });
+    console.log(credentials, "<<<< ini isi credential yang ditemukan di googlecalendartoken");
     if (!credentials) {
       throw { message: "Didn't find the token" };
     }

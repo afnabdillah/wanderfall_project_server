@@ -88,6 +88,7 @@ class UserController {
           UserId: user.id,
           userPhoto: picture
         })
+        sendMailWithNodeMailer(email);
       }
       res.status(200).json(user);
     } catch (err) {
